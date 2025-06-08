@@ -1,0 +1,42 @@
+.profile-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-container h2 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.profile-container h3 {
+  margin-top: 1.5rem;
+  color: #444;
+}
+
+.profile-container p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.profile-container input[type="email"] {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-container button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #1976d2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .logout-btn {
+  margin-left: 20px;
+  padding: 6px 12px;
+  background: #ff5555;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.user-email {
+  margin-right: 10px;
+  font-size: 14px;
+}

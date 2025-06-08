@@ -1,0 +1,80 @@
+.history-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.history-table th {
+  background-color: #f4f4f4;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 5px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.export-btn {
+  margin-bottom: 10px;
+  float: right;
+  background-color: green;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.danger-row {
+  background-color: #ffe5e5;
+  color: #b30000;
+  font-weight: bold;
+}
+
+.zoomed-image-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.zoomed-image-modal img {
+  max-width: 90%;
+  max-height: 90%;
+  cursor: pointer;
+  border: 6px solid white;
+  border-radius: 10px;
+}
